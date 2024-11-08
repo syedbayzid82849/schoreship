@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(90deg, #F2F5F9 23.44%, #FEF4F4 100%);
+
+}
+.top{
+    width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(39, 37, 37);
+    text-decoration: none;
+    color: white;
+}
+.top i{
+    padding: 5px;
+}
+
+.nav-bar .logo img{
+    width: 100px;
+}
+.nav-bar{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+}
+
+.nav-bar .menu ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.nav-bar .menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.btn button{
+    padding: 7px 20px;
+    background: rgba(255, 157, 44, 1);
+    color: white;
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+}
+
+
+
+/* start hero */
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; /* Align items to the bottom within the container */
+}
+
+.hero-img {
+    position: relative;
+    top: -60px;
+}
+
+.container .hero-text{
+
+    width: 50%;
+    padding: 60px;
+    
+}
+.container .hero-text h1{
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.container .hero-text p{
+    padding: 40px 0px;
+    font-size: 20px;
+}
+.container .hero-text .arow-btn{
+    display: flex;
+    gap: 20px;
+}
+
+.container .hero-text .arow-btn .left-arow{
+    border: 1px solid rgba(255, 157, 44, 1);
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+
+.container .hero-text .arow-btn .right-arow{
+    border: 1px solid rgba(255, 157, 44, 1);
+    padding: 20px 20px;
+    border-radius: 50%;
+    background-color:rgba(255, 157, 44, 1);
+    color: white;
+}
+
+
+
+/* scholarship facilities start */
+.uk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.uk .uk-img img{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    top: 80px;
+    left: 70px;
+    border-radius: 20px 20px 245px 20px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    position: relative;
+
+}
+
+.uk .uk-facilities{
+    width: 600px;
+
+}
+.uk .uk-facilities .box{
+    width: 10px;
+    height: 10px;
+    background: rgba(252, 145, 47, 1);
+    display: inline-block;
+}
+.point {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    position: relative;
+    top: 100px;
+
+  }
+  
+.point i {
+    padding: 10px;
+}
+
+.uk-facilities h1{
+    position: relative;
+    top: 20px;
+    width: 500px;
+    font-family: Glory;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 50.76px;
+    text-align: left;
+
+}
+.uk-facilities p{
+    position: relative;
+    top: 60px;
+}
+
+
+
+/* china facilities */
+
+
+
+.china{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    padding: 70px;
+    top: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #F2F5F9 23.44%, #FEF4F4 100%);
+}
+
+
+.china .china-img img {
+    width: 490px;
+    height: 560px;
+    top: 1700px;
+    left: 1340px;
+    border-radius:20px 20px 20px 250px;
+    border: 3px 0px 0px 0px;
+    angle: -180 deg;
+
+
+}
+
+
+.china-facilities h1{
+    position: relative;
+    top: -64px;
+    width: 493px;
+    font-family: Glory;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 50.76px;
+    text-align: left;
+
+}
+
+.china .china-facilities .point {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    position: relative;
+    top: 100px;
+
+  }
+  
+  .china .china-facilities .point i {
+    padding: 10px;
+}
+
+
+
+/* canada facilities */
+.canada{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+
+.canada .canada-img img{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    top: 233px;
+    left: 70px;
+    border-radius: 20px 20px 245px 20px;
+    border: 3px 0px 0px 0px;
+    opacity: 0px;
+    position: relative;
+
+}
+
+.canada .canada-facilities{
+    width: 600px;
+
+}
+.canada .canada-facilities .box{
+    width: 10px;
+    height: 10px;
+    background: rgba(252, 145, 47, 1);
+    display: inline-block;
+}
+.canada .canada-facilities .point {
+    display: flex;
+    font-size: 16px;
+    position: relative;
+    top: 280px;
+    left: 150px;
+
+  }
+  
+  .canada .canada-facilities .point i {
+    padding: 10px;
+}
+
+.canada-facilities h1{
+    position: relative;
+    top: 175px;
+    left: 150px;
+    width: 650px;
+    font-family: Glory;
+    font-size: 44px;
+    font-weight: 600;
+
+
+
+}
+.canada-facilities p{
+    position: relative;
+    top: 240px;
+    left: 155px;
+}
+
+
+
+
+/* usa facilities */
+
+.usa{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+    padding: 70px;
+    top: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #F2F5F9 23.44%, #FEF4F4 100%);
+}
+
+
+.usa .usa-img img {
+    width: 490px;
+    height: 560px;
+    top: 1700px;
+    left: 1340px;
+    border-radius:20px 20px 20px 250px;
+    border: 3px 0px 0px 0px;
+    angle: -180 deg;
+
+
+}
+
+
+.usa-facilities h1{
+    position: relative;
+    top: -64px;
+    width: 493px;
+    font-family: Glory;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 50.76px;
+    text-align: left;
+
+}
+
+.usa .usa-facilities .point {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    position: relative;
+    top: 100px;
+
+  }
+  
+.usa .usa-facilities .point i {
+    padding: 10px;
+}
+
+
+/* required document */
+
+
+.required-document{
+    position: relative;
+    top: 960px;
+    padding: 55px;
+}
+
+.required-document .points{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    gap: 200px;
+    font-size: 15px;
+    font-family: Glory;
+    font-weight: bold;
+
+
+}
+.required-document .points ul li{
+    list-style: none;
+}
+.required-document h1{
+    width: 982px;
+    height: 45px;
+    position: absolute;
+    font-family: Glory;
+    font-size: 44px;
+    font-weight: 400;
+
+
+}
+.required-document p{
+    position: relative;
+    top: 150px;
+
+}
+.required-document .points i{
+    padding: 10px;
+
+}
+
+/* footer */
+
+
+footer {
+    position: relative;
+    top: 1350px;
+    
+}
+
+.footer-container {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 140px;
+    margin: auto;
+}
+
+.footer-container h1{
+    padding: 10px;
+    margin-left: 50px;
+}
+.footer-container .social-icon {
+    padding: 10px;
+    margin-right: 60px;
+}
+.footer-container .social-icon i{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.footer-container2{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 30px;
+    padding: 60px;
+    
+}
+.footer-container2 h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-container2  ul li{
+    list-style: none;
+    padding: 5px;
+
+}
+.footer-container2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-container2 .latest-news{
+    position: relative;
+
+}
+.footer-container2 .latest-news .news-img{
+    width: 100%;
+    height: 100%;
+    background: #333;
+    border-radius: 5px;
+}
+.footer-container2 .latest-news .news1{
+    width: 350px;
+    display: grid;
+    column-gap: 10px;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 3fr;
+}
+
+.footer-container2 .latest-news .news2 .news-img{
+    width: 100%;
+    height: 100%;
+    background: #333;
+    border-radius: 5px;
+}
+.footer-container2 .latest-news .news2{
+    width: 350px;
+    display: grid;
+    margin-bottom: 20px;
+    column-gap: 10px;
+    grid-template-columns: 1fr 3fr;
+}
+.footer-container2 .latest-news a{
+    text-decoration: none;
+    color: orange;
+}
+.contact-us i{
+    padding: 5px;
+    color: orange;
+}
+.copyright{
+    width: 100%;
+    height: 30px;
+    background: #c2c4c6;
+    font-size: 10px;
+    text-align: center;
+    align-content: center;
+}
